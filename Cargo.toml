@@ -1,0 +1,21 @@
+[package]
+name = "apple_srp_client"
+version = "0.1.0"
+edition = "2024"
+homepage = "https://github.com/kekeimiku/apple_srp_client"
+license = "MIT"
+description = "Apple Secure Remote Password Client"
+keywords = ["srp"]
+repository = "https://github.com/kekeimiku/apple_srp_client"
+
+[dependencies.digest]
+version = "0.10.7"
+default-features = false
+
+[dependencies.num-bigint]
+version = "0.4.6"
+default-features = false
+
+[dependencies.subtle]
+version = "2.6"
+default-features = false
